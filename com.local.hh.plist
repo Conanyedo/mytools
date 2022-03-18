@@ -111,14 +111,6 @@
               "HIDKeyboardModifierMappingDst": 0x70000000B
             },
             {
-              "HIDKeyboardModifierMappingSrc": 0x700000052,
-              "HIDKeyboardModifierMappingDst": 0x70000000B
-            },
-            {
-              "HIDKeyboardModifierMappingSrc": 0x700000051,
-              "HIDKeyboardModifierMappingDst": 0x70000000B
-            },
-            {
               "HIDKeyboardModifierMappingSrc": 0x70000002C,
               "HIDKeyboardModifierMappingDst": 0x70000000B
             },

